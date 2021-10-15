@@ -1,0 +1,296 @@
+po lein repl??? mozna to neni kvuli ductu!!!, ale ze jsem dlouho nepoustel repl!
+------------------------------------
+c:\moje\vyvoj\clj\ductapps>lein new duct film-ratings +site +ataraxy +sqlite +example
+Retrieving duct/lein-template/0.12.3/lein-template-0.12.3.pom from clojars
+Retrieving duct/lein-template/0.12.3/lein-template-0.12.3.jar from clojars
+Generating a new Duct project named film-ratings...
+Run 'lein duct setup' in the project directory to create local config files.
+
+c:\moje\vyvoj\clj\ductapps\film-ratings>lein duct setup
+Retrieving duct/lein-duct/0.12.3/lein-duct-0.12.3.pom from clojars
+Retrieving duct/lein-duct/0.12.3/lein-duct-0.12.3.jar from clojars
+Created profiles.clj
+Created .dir-locals.el
+Created dev/resources/local.edn
+Created dev/src/local.clj
+c:\moje\vyvoj\clj\ductapps\film-ratings>git add .
+
+c:\moje\vyvoj\clj\ductapps\film-ratings>git commit -m "lein duct setup"
+On branch master
+nothing to commit, working tree clean
+
+c:\moje\vyvoj\clj\ductapps\film-ratings>lein repl
+----------------------------------
+
+Retrieving org/clojure/clojure/1.10.3/clojure-1.10.3.pom from central
+Retrieving org/clojure/spec.alpha/0.2.194/spec.alpha-0.2.194.pom from central
+Retrieving org/clojure/pom.contrib/0.3.0/pom.contrib-0.3.0.pom from central
+Retrieving org/clojure/core.specs.alpha/0.2.56/core.specs.alpha-0.2.56.pom from central
+Retrieving duct/core/0.8.0/core-0.8.0.pom from clojars
+Retrieving integrant/integrant/0.7.0/integrant-0.7.0.pom from clojars
+Retrieving weavejester/dependency/0.2.1/dependency-0.2.1.pom from clojars
+Retrieving medley/medley/1.2.0/medley-1.2.0.pom from clojars
+Retrieving duct/module.ataraxy/0.3.0/module.ataraxy-0.3.0.pom from clojars
+Retrieving org/clojure/clojure/1.10.0/clojure-1.10.0.pom from central
+Retrieving ataraxy/ataraxy/0.4.2/ataraxy-0.4.2.pom from clojars
+Retrieving ring/ring-core/1.6.1/ring-core-1.6.1.pom from clojars
+Retrieving ring/ring-codec/1.0.1/ring-codec-1.0.1.pom from clojars
+Retrieving commons-fileupload/commons-fileupload/1.3.2/commons-fileupload-1.3.2.pom from central
+Retrieving org/apache/commons/commons-parent/40/commons-parent-40.pom from central
+Retrieving clj-time/clj-time/0.11.0/clj-time-0.11.0.pom from clojars
+Retrieving joda-time/joda-time/2.8.2/joda-time-2.8.2.pom from central
+Retrieving duct/core/0.7.0/core-0.7.0.pom from clojars
+Retrieving medley/medley/1.0.0/medley-1.0.0.pom from clojars
+Retrieving fipp/fipp/0.6.14/fipp-0.6.14.pom from clojars
+Retrieving org/clojure/core.rrb-vector/0.0.13/core.rrb-vector-0.0.13.pom from central
+Retrieving duct/module.logging/0.5.0/module.logging-0.5.0.pom from clojars
+Retrieving duct/logger/0.3.0/logger-0.3.0.pom from clojars
+Retrieving duct/logger.timbre/0.4.1/logger.timbre-0.4.1.pom from clojars
+Retrieving org/clojure/clojure/1.9.0-alpha19/clojure-1.9.0-alpha19.pom from central
+Retrieving org/clojure/spec.alpha/0.1.123/spec.alpha-0.1.123.pom from central
+Retrieving com/taoensso/timbre/4.10.0/timbre-4.10.0.pom from clojars
+Retrieving com/taoensso/encore/2.91.0/encore-2.91.0.pom from clojars
+Retrieving org/clojure/tools.reader/0.10.0/tools.reader-0.10.0.pom from central
+Retrieving com/taoensso/truss/1.5.0/truss-1.5.0.pom from clojars
+Retrieving io/aviso/pretty/0.1.33/pretty-0.1.33.pom from clojars
+Retrieving org/clojure/clojure/1.5.0/clojure-1.5.0.pom from central
+Retrieving duct/core/0.6.1/core-0.6.1.pom from clojars
+Retrieving org/clojure/clojure/1.9.0-alpha17/clojure-1.9.0-alpha17.pom from central
+Retrieving org/clojure/core.specs.alpha/0.1.10/core.specs.alpha-0.1.10.pom from central
+Retrieving integrant/integrant/0.6.1/integrant-0.6.1.pom from clojars
+Retrieving com/stuartsierra/dependency/0.2.0/dependency-0.2.0.pom from clojars
+Retrieving fipp/fipp/0.6.10/fipp-0.6.10.pom from clojars
+Retrieving org/clojure/core.rrb-vector/0.0.11/core.rrb-vector-0.0.11.pom from central
+Retrieving duct/logger/0.2.0/logger-0.2.0.pom from clojars
+Retrieving duct/module.sql/0.6.1/module.sql-0.6.1.pom from clojars
+Retrieving duct/database.sql.hikaricp/0.4.0/database.sql.hikaricp-0.4.0.pom from clojars
+Retrieving duct/database.sql/0.1.0/database.sql-0.1.0.pom from clojars
+Retrieving integrant/integrant/0.3.3/integrant-0.3.3.pom from clojars
+Retrieving hikari-cp/hikari-cp/2.6.0/hikari-cp-2.6.0.pom from clojars
+Retrieving org/tobereplaced/lettercase/1.0.0/lettercase-1.0.0.pom from clojars
+Retrieving com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.pom from central
+Retrieving org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom from central
+Retrieving org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom from central
+Retrieving net/ttddyy/datasource-proxy/1.5/datasource-proxy-1.5.pom from central
+Retrieving duct/migrator.ragtime/0.3.2/migrator.ragtime-0.3.2.pom from clojars
+Retrieving integrant/integrant/0.8.0/integrant-0.8.0.pom from clojars
+Retrieving pandect/pandect/0.6.1/pandect-0.6.1.pom from clojars
+Retrieving ragtime/ragtime/0.8.0/ragtime-0.8.0.pom from clojars
+Retrieving ragtime/core/0.8.0/core-0.8.0.pom from clojars
+Retrieving ragtime/jdbc/0.8.0/jdbc-0.8.0.pom from clojars
+Retrieving org/clojure/java.jdbc/0.5.8/java.jdbc-0.5.8.pom from central
+Retrieving resauce/resauce/0.1.0/resauce-0.1.0.pom from clojars
+Retrieving medley/medley/1.3.0/medley-1.3.0.pom from clojars
+Retrieving duct/module.web/0.7.3/module.web-0.7.3.pom from clojars
+Retrieving duct/server.http.jetty/0.2.1/server.http.jetty-0.2.1.pom from clojars
+Retrieving ring/ring-jetty-adapter/1.8.1/ring-jetty-adapter-1.8.1.pom from clojars
+Retrieving ring/ring-servlet/1.8.1/ring-servlet-1.8.1.pom from clojars
+Retrieving org/eclipse/jetty/jetty-server/9.4.28.v20200408/jetty-server-9.4.28.v20200408.pom from central
+Retrieving org/eclipse/jetty/jetty-project/9.4.28.v20200408/jetty-project-9.4.28.v20200408.pom from central
+Retrieving org/eclipse/jetty/jetty-http/9.4.28.v20200408/jetty-http-9.4.28.v20200408.pom from central
+Retrieving org/eclipse/jetty/jetty-util/9.4.28.v20200408/jetty-util-9.4.28.v20200408.pom from central
+Retrieving org/eclipse/jetty/jetty-io/9.4.28.v20200408/jetty-io-9.4.28.v20200408.pom from central
+Retrieving compojure/compojure/1.6.2/compojure-1.6.2.pom from clojars
+Retrieving org/clojure/tools.macro/0.1.5/tools.macro-0.1.5.pom from central
+Retrieving clout/clout/2.2.1/clout-2.2.1.pom from clojars
+Retrieving instaparse/instaparse/1.4.8/instaparse-1.4.8.pom from clojars
+Retrieving metosin/jsonista/0.3.3/jsonista-0.3.3.pom from clojars
+Retrieving com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.pom from central
+Retrieving com/fasterxml/jackson/jackson-base/2.12.3/jackson-base-2.12.3.pom from central
+Retrieving com/fasterxml/jackson/jackson-bom/2.12.3/jackson-bom-2.12.3.pom from central
+Retrieving com/fasterxml/jackson/jackson-parent/2.12/jackson-parent-2.12.pom from central
+Retrieving com/fasterxml/oss-parent/41/oss-parent-41.pom from central
+Retrieving com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.pom from central
+Retrieving com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.pom from central
+Retrieving com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.3/jackson-datatype-jsr310-2.12.3.pom from central
+Retrieving com/fasterxml/jackson/module/jackson-modules-java8/2.12.3/jackson-modules-java8-2.12.3.pom from central
+Retrieving metosin/muuntaja/0.6.8/muuntaja-0.6.8.pom from clojars
+Retrieving metosin/jsonista/0.3.1/jsonista-0.3.1.pom from clojars
+Retrieving com/fasterxml/jackson/core/jackson-core/2.12.0/jackson-core-2.12.0.pom from central
+Retrieving com/fasterxml/jackson/jackson-base/2.12.0/jackson-base-2.12.0.pom from central
+Retrieving com/fasterxml/jackson/jackson-bom/2.12.0/jackson-bom-2.12.0.pom from central
+Retrieving com/fasterxml/jackson/core/jackson-databind/2.12.0/jackson-databind-2.12.0.pom from central
+Retrieving com/fasterxml/jackson/core/jackson-annotations/2.12.0/jackson-annotations-2.12.0.pom from central
+Retrieving com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.0/jackson-datatype-jsr310-2.12.0.pom from central
+Retrieving com/fasterxml/jackson/module/jackson-modules-java8/2.12.0/jackson-modules-java8-2.12.0.pom from central
+Retrieving org/slf4j/slf4j-nop/1.7.31/slf4j-nop-1.7.31.pom from central
+Retrieving org/slf4j/slf4j-parent/1.7.31/slf4j-parent-1.7.31.pom from central
+Retrieving org/slf4j/slf4j-api/1.7.31/slf4j-api-1.7.31.pom from central
+Retrieving org/webjars/normalize.css/5.0.0/normalize.css-5.0.0.pom from central
+Retrieving ring/ring-core/1.9.3/ring-core-1.9.3.pom from clojars
+Retrieving ring/ring-codec/1.1.3/ring-codec-1.1.3.pom from clojars
+Retrieving commons-codec/commons-codec/1.15/commons-codec-1.15.pom from central
+Retrieving org/apache/commons/commons-parent/52/commons-parent-52.pom from central
+Retrieving ring/ring-devel/1.9.3/ring-devel-1.9.3.pom from clojars
+Retrieving clj-stacktrace/clj-stacktrace/0.2.8/clj-stacktrace-0.2.8.pom from clojars
+Retrieving ring/ring-defaults/0.3.3/ring-defaults-0.3.3.pom from clojars
+Retrieving ring/ring-ssl/0.3.0/ring-ssl-0.3.0.pom from clojars
+Retrieving ring/ring-core/1.6.0/ring-core-1.6.0.pom from clojars
+Retrieving ring/ring-headers/0.3.0/ring-headers-0.3.0.pom from clojars
+Retrieving ring/ring-anti-forgery/1.3.0/ring-anti-forgery-1.3.0.pom from clojars
+Retrieving ring-webjars/ring-webjars/0.2.0/ring-webjars-0.2.0.pom from clojars
+Retrieving org/webjars/webjars-locator/0.27/webjars-locator-0.27.pom from central
+Retrieving org/webjars/webjars-locator-core/0.27/webjars-locator-core-0.27.pom from central
+Retrieving org/apache/commons/commons-compress/1.9/commons-compress-1.9.pom from central
+Retrieving com/fasterxml/jackson/core/jackson-databind/2.3.3/jackson-databind-2.3.3.pom from central
+Retrieving com/fasterxml/oss-parent/12/oss-parent-12.pom from central
+Retrieving com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0.pom from central
+Retrieving com/fasterxml/oss-parent/11/oss-parent-11.pom from central
+Retrieving com/fasterxml/jackson/core/jackson-core/2.3.3/jackson-core-2.3.3.pom from central
+Retrieving org/xerial/sqlite-jdbc/3.34.0/sqlite-jdbc-3.34.0.pom from central
+Retrieving integrant/repl/0.3.2/repl-0.3.2.pom from clojars
+Retrieving org/clojure/tools.namespace/1.0.0/tools.namespace-1.0.0.pom from central
+Retrieving org/clojure/java.classpath/1.0.0/java.classpath-1.0.0.pom from central
+Retrieving eftest/eftest/0.5.9/eftest-0.5.9.pom from clojars
+Retrieving progrock/progrock/0.1.2/progrock-0.1.2.pom from clojars
+Retrieving io/aviso/pretty/0.1.34/pretty-0.1.34.pom from clojars
+Retrieving mvxcvi/puget/1.1.1/puget-1.1.1.pom from clojars
+Retrieving mvxcvi/arrangement/1.2.0/arrangement-1.2.0.pom from clojars
+Retrieving fipp/fipp/0.6.17/fipp-0.6.17.pom from clojars
+Retrieving org/clojure/core.rrb-vector/0.0.14/core.rrb-vector-0.0.14.pom from central
+Retrieving kerodon/kerodon/0.9.1/kerodon-0.9.1.pom from clojars
+Retrieving peridot/peridot/0.5.1/peridot-0.5.1.pom from clojars
+Retrieving ring-mock/ring-mock/0.1.5/ring-mock-0.1.5.pom from clojars
+Retrieving ring/ring-codec/1.0.0/ring-codec-1.0.0.pom from clojars
+Retrieving org/apache/httpcomponents/httpmime/4.5.1/httpmime-4.5.1.pom from central
+Retrieving org/apache/httpcomponents/httpcomponents-client/4.5.1/httpcomponents-client-4.5.1.pom from central
+Retrieving org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.pom from central
+Retrieving org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.pom from central
+Retrieving org/apache/httpcomponents/httpcomponents-core/4.4.3/httpcomponents-core-4.4.3.pom from central
+Retrieving org/apache/httpcomponents/httpcore/4.4.5/httpcore-4.4.5.pom from central
+Retrieving org/apache/httpcomponents/httpcomponents-core/4.4.5/httpcomponents-core-4.4.5.pom from central
+Retrieving clj-time/clj-time/0.12.0/clj-time-0.12.0.pom from clojars
+Retrieving joda-time/joda-time/2.9.3/joda-time-2.9.3.pom from central
+Retrieving enlive/enlive/1.1.6/enlive-1.1.6.pom from clojars
+Retrieving org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.pom from central
+Retrieving org/jsoup/jsoup/1.7.2/jsoup-1.7.2.pom from central
+Retrieving org/flatland/ordered/1.5.7/ordered-1.5.7.pom from clojars
+Retrieving org/flatland/useful/0.11.6/useful-0.11.6.pom from clojars
+Retrieving org/clojure/tools.macro/0.1.1/tools.macro-0.1.1.pom from central
+Retrieving org/clojure/pom.contrib/0.0.20/pom.contrib-0.0.20.pom from central
+Retrieving org/clojure/clojure/1.3.0-alpha5/clojure-1.3.0-alpha5.pom from central
+Retrieving org/clojure/tools.reader/0.7.2/tools.reader-0.7.2.pom from central
+Retrieving org/clojure/pom.contrib/0.0.26/pom.contrib-0.0.26.pom from central
+Retrieving org/clojure/spec.alpha/0.2.194/spec.alpha-0.2.194.jar from central
+Retrieving org/clojure/clojure/1.10.3/clojure-1.10.3.jar from central
+Retrieving org/clojure/core.specs.alpha/0.2.56/core.specs.alpha-0.2.56.jar from central
+Retrieving com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar from central
+Retrieving net/ttddyy/datasource-proxy/1.5/datasource-proxy-1.5.jar from central
+Retrieving org/clojure/java.jdbc/0.5.8/java.jdbc-0.5.8.jar from central
+Retrieving org/eclipse/jetty/jetty-util/9.4.28.v20200408/jetty-util-9.4.28.v20200408.jar from central
+Retrieving org/eclipse/jetty/jetty-server/9.4.28.v20200408/jetty-server-9.4.28.v20200408.jar from central
+Retrieving org/eclipse/jetty/jetty-http/9.4.28.v20200408/jetty-http-9.4.28.v20200408.jar from central
+Retrieving org/eclipse/jetty/jetty-io/9.4.28.v20200408/jetty-io-9.4.28.v20200408.jar from central
+Retrieving org/clojure/tools.macro/0.1.5/tools.macro-0.1.5.jar from central
+Retrieving com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar from central
+Retrieving com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar from central
+Retrieving com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar from central
+Retrieving com/cognitect/transit-java/1.0.343/transit-java-1.0.343.jar from central
+Retrieving com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.3/jackson-datatype-jsr310-2.12.3.jar from central
+Retrieving org/slf4j/slf4j-nop/1.7.31/slf4j-nop-1.7.31.jar from central
+Retrieving com/cognitect/transit-clj/1.0.324/transit-clj-1.0.324.jar from central
+Retrieving org/slf4j/slf4j-api/1.7.31/slf4j-api-1.7.31.jar from central
+Retrieving org/webjars/normalize.css/5.0.0/normalize.css-5.0.0.jar from central
+Retrieving org/xerial/sqlite-jdbc/3.34.0/sqlite-jdbc-3.34.0.jar from central
+Retrieving org/webjars/webjars-locator/0.27/webjars-locator-0.27.jar from central
+Retrieving org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar from central
+Retrieving org/webjars/webjars-locator-core/0.27/webjars-locator-core-0.27.jar from central
+Retrieving org/clojure/tools.namespace/1.0.0/tools.namespace-1.0.0.jar from central
+Retrieving org/clojure/java.classpath/1.0.0/java.classpath-1.0.0.jar from central
+Retrieving org/clojure/core.rrb-vector/0.0.14/core.rrb-vector-0.0.14.jar from central
+Retrieving org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar from central
+Retrieving org/apache/httpcomponents/httpmime/4.5.1/httpmime-4.5.1.jar from central
+Retrieving org/apache/httpcomponents/httpcore/4.4.5/httpcore-4.4.5.jar from central
+Retrieving joda-time/joda-time/2.9.3/joda-time-2.9.3.jar from central
+Retrieving org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar from central
+Retrieving org/jsoup/jsoup/1.7.2/jsoup-1.7.2.jar from central
+Retrieving duct/core/0.8.0/core-0.8.0.jar from clojars
+Retrieving medley/medley/1.2.0/medley-1.2.0.jar from clojars
+Retrieving integrant/integrant/0.7.0/integrant-0.7.0.jar from clojars
+Retrieving weavejester/dependency/0.2.1/dependency-0.2.1.jar from clojars
+Retrieving duct/module.ataraxy/0.3.0/module.ataraxy-0.3.0.jar from clojars
+Retrieving duct/logger/0.3.0/logger-0.3.0.jar from clojars
+Retrieving duct/module.logging/0.5.0/module.logging-0.5.0.jar from clojars
+Retrieving ataraxy/ataraxy/0.4.2/ataraxy-0.4.2.jar from clojars
+Retrieving duct/logger.timbre/0.4.1/logger.timbre-0.4.1.jar from clojars
+Retrieving com/taoensso/timbre/4.10.0/timbre-4.10.0.jar from clojars
+Retrieving com/taoensso/encore/2.91.0/encore-2.91.0.jar from clojars
+Retrieving com/taoensso/truss/1.5.0/truss-1.5.0.jar from clojars
+Retrieving duct/database.sql.hikaricp/0.4.0/database.sql.hikaricp-0.4.0.jar from clojars
+Retrieving duct/database.sql/0.1.0/database.sql-0.1.0.jar from clojars
+Retrieving hikari-cp/hikari-cp/2.6.0/hikari-cp-2.6.0.jar from clojars
+Retrieving pandect/pandect/0.6.1/pandect-0.6.1.jar from clojars
+Retrieving org/tobereplaced/lettercase/1.0.0/lettercase-1.0.0.jar from clojars
+Retrieving duct/module.sql/0.6.1/module.sql-0.6.1.jar from clojars
+Retrieving duct/migrator.ragtime/0.3.2/migrator.ragtime-0.3.2.jar from clojars
+Retrieving ragtime/ragtime/0.8.0/ragtime-0.8.0.jar from clojars
+Retrieving ragtime/core/0.8.0/core-0.8.0.jar from clojars
+Retrieving ragtime/jdbc/0.8.0/jdbc-0.8.0.jar from clojars
+Retrieving ring/ring-jetty-adapter/1.8.1/ring-jetty-adapter-1.8.1.jar from clojars
+Retrieving ring/ring-servlet/1.8.1/ring-servlet-1.8.1.jar from clojars
+Retrieving resauce/resauce/0.1.0/resauce-0.1.0.jar from clojars
+Retrieving compojure/compojure/1.6.2/compojure-1.6.2.jar from clojars
+Retrieving duct/module.web/0.7.3/module.web-0.7.3.jar from clojars
+Retrieving clout/clout/2.2.1/clout-2.2.1.jar from clojars
+Retrieving duct/server.http.jetty/0.2.1/server.http.jetty-0.2.1.jar from clojars
+Retrieving instaparse/instaparse/1.4.8/instaparse-1.4.8.jar from clojars
+Retrieving metosin/muuntaja/0.6.8/muuntaja-0.6.8.jar from clojars
+Retrieving metosin/jsonista/0.3.3/jsonista-0.3.3.jar from clojars
+Retrieving ring/ring-devel/1.9.3/ring-devel-1.9.3.jar from clojars
+Retrieving clj-stacktrace/clj-stacktrace/0.2.8/clj-stacktrace-0.2.8.jar from clojars
+Retrieving ring/ring-ssl/0.3.0/ring-ssl-0.3.0.jar from clojars
+Retrieving ring/ring-headers/0.3.0/ring-headers-0.3.0.jar from clojars
+Retrieving ring/ring-anti-forgery/1.3.0/ring-anti-forgery-1.3.0.jar from clojars
+Retrieving ring-webjars/ring-webjars/0.2.0/ring-webjars-0.2.0.jar from clojars
+Retrieving ring/ring-defaults/0.3.3/ring-defaults-0.3.3.jar from clojars
+Retrieving progrock/progrock/0.1.2/progrock-0.1.2.jar from clojars
+Retrieving io/aviso/pretty/0.1.34/pretty-0.1.34.jar from clojars
+Retrieving ring/ring-core/1.9.3/ring-core-1.9.3.jar from clojars
+Retrieving mvxcvi/arrangement/1.2.0/arrangement-1.2.0.jar from clojars
+Retrieving integrant/repl/0.3.2/repl-0.3.2.jar from clojars
+Retrieving eftest/eftest/0.5.9/eftest-0.5.9.jar from clojars
+Retrieving fipp/fipp/0.6.17/fipp-0.6.17.jar from clojars
+Retrieving mvxcvi/puget/1.1.1/puget-1.1.1.jar from clojars
+Retrieving ring-mock/ring-mock/0.1.5/ring-mock-0.1.5.jar from clojars
+Retrieving clj-time/clj-time/0.12.0/clj-time-0.12.0.jar from clojars
+Retrieving peridot/peridot/0.5.1/peridot-0.5.1.jar from clojars
+Retrieving enlive/enlive/1.1.6/enlive-1.1.6.jar from clojars
+Retrieving ring/ring-codec/1.0.1/ring-codec-1.0.1.jar from clojars
+Retrieving kerodon/kerodon/0.9.1/kerodon-0.9.1.jar from clojars
+Retrieving org/flatland/ordered/1.5.7/ordered-1.5.7.jar from clojars
+Retrieving org/flatland/useful/0.11.6/useful-0.11.6.jar from clojars
+nREPL server started on port 61566 on host 127.0.0.1 - nrepl://127.0.0.1:61566
+REPL-y 0.4.4, nREPL 0.7.0
+Clojure 1.10.3
+Java HotSpot(TM) 64-Bit Server VM 1.8.0_271-b09
+    Docs: (doc function-name-here)
+          (find-doc "part-of-name-here")
+  Source: (source function-name-here)
+ Javadoc: (javadoc java-object-or-class-here)
+    Exit: Control+D or (exit) or (quit)
+ Results: Stored in vars *1, *2, *3, an exception in *e
+
+user=> ~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
