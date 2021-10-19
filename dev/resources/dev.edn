@@ -1,3 +1,6 @@
-{:duct.database/sql
- {:connection-uri "jdbc:sqlite:db/dev.sqlite"}
+{
+ :duct.database/sql     {:connection-uri "jdbc:sqlite:db/dev.sqlite"}
+ :duct.module/sql       {:database-url "jdbc:sqlite:db/dev.sqlite"}
+ :duct.core/environment :development
+ ;:duct.core/include     ["film_ratings/config"]
  }
