@@ -9,6 +9,8 @@
                  [duct/module.sql "0.6.1"]
                  [duct/module.web "0.7.3"]
                  [hiccup "1.0.5"]
+                 [org.postgresql/postgresql "42.2.14"]
+                 [duct/database.sql.hikaricp "0.4.0"]
                  [org.xerial/sqlite-jdbc "3.34.0"]]
   :plugins [[duct/lein-duct "0.12.3"]]
   :main ^:skip-aot film-ratings.main
