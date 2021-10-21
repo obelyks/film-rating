@@ -1,6 +1,6 @@
 version: 2.1
 executors:
-    Docker-publisher:
+    docker-publisher:
       working_directory: ~/cci-film-ratings # directory where steps will run
       environment:
         IMAGE_NAME: obelyks/film-ratings-app

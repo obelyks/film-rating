@@ -1,0 +1,52 @@
+docker run -p 5432:5432 -e POSTGRES_USER=filmuser -e POSTGRES_DB=filmdb -e POSTGRES_PASSWORD=password postgres:alpine
+
+$export DB_HOST=localhost
+$ export DB_PASSWORD=password
+
+set DB_HOST=localhost
+set DB_PASSWORD=password
+set DATABASE_URL=jdbc:postgresql://127.0.0.1:5432/filmdb
+
+:duct.module/sql       {:database-url "jdbc:postgresql://127.0.0.1:5432/filmdb?user=filmuser&password=password"}
+
+
+nefunguje overeni typu 10
+:duct.database.sql/hikaricp {:adapter       "postgresql"
+                              :port-number   #duct/env ["DB_PORT" :or "5432"]
+                              :server-name   #duct/env ["DB_HOST"]
+                              :database-name "filmdb"
+                              :username      "filmuser"
+                              :password      #duct/env ["DB_PASSWORD"]}
+
+[org.postgresql/postgresql "42.2.14"]  se starsima verzema to blbne!!!!!!!!!! jdbc driver!!!!!!!!!
+
+
+na produkci: rucne migrace!
+lein run :duct/migrator
+
+
+----po vytvoreni dockerfileu
+docker build . -t film-ratings-app
+        error s cybejicim hodocenim spadne na 500!
+
+--run from docker
+docker run --network host -e DB_HOST=localhost -e DB_PASSWORD=password film-ratings-app
+docker run --network host -e DB_HOST=localhost -e DB_PASSWORD=password film-ratings-app
+docker run --network=host -e DB_HOST=localhost -e DB_PASSWORD=password film-ratings-app
+
+
+
+---------------
+musi byt nastavene DB_HOST a DB_PASSWORD!
+docker-compose build
+
+ docker-compose up: timhle to poustim!
+
+
+ -------
+docker build . -t obelyks/film-ratings-app
+docker push obelyks/film-ratings-app:latest
+
+
+docker tag jhooq-docker-demo rahulwagh17/jhooq-docker-demo:jhooq-docker-demo
+docker login
