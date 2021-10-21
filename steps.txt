@@ -33,3 +33,20 @@ docker build . -t film-ratings-app
 docker run --network host -e DB_HOST=localhost -e DB_PASSWORD=password film-ratings-app
 docker run --network host -e DB_HOST=localhost -e DB_PASSWORD=password film-ratings-app
 docker run --network=host -e DB_HOST=localhost -e DB_PASSWORD=password film-ratings-app
+
+
+
+---------------
+musi byt nastavene DB_HOST a DB_PASSWORD!
+docker-compose build
+
+ docker-compose up: timhle to poustim!
+
+
+ -------
+docker build . -t obelyks/film-ratings-app
+docker push obelyks/film-ratings-app:latest
+
+
+docker tag jhooq-docker-demo rahulwagh17/jhooq-docker-demo:jhooq-docker-demo
+docker login
