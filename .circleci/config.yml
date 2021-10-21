@@ -67,7 +67,13 @@ workflows:
   version: 2
   main:
     jobs:
-      - publish-docker
+      - build
+      - build-docker:
+          requires:
+            - build
+      - publish-docker:
+          requires:
+            - build-docker
   build_and_deploy:
     jobs:
       - build:
